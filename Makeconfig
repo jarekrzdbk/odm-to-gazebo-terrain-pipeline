@@ -1,0 +1,82 @@
+DATASET_DIR ?= /media/jaro/EXTSSD/test/odm_data_aukerman
+PROJECT_NAME ?= project
+REPO_ROOT ?= $(CURDIR)
+
+ROS_DISTRO ?= humble
+ROS_DOMAIN_ID ?= 30
+ROS_LOCALHOST_ONLY ?= 0
+RMW_IMPLEMENTATION ?= rmw_fastrtps_cpp
+GZ_LAUNCH ?= ros2 launch ros_gz_sim gz_sim.launch.py
+GZ_FALLBACK_CMD ?= ign gazebo
+
+ODM_IMAGE ?= opendronemap/odm:latest
+
+ODM_ORTHOPHOTO_RESOLUTION ?= 5
+ODM_MESH_SIZE ?= 400000
+ODM_MESH_OCTREE_DEPTH ?= 12
+ODM_DSM ?= 1
+ODM_DTM ?= 1
+ODM_SKIP_3DMODEL := 0
+ODM_END_WITH := odm_orthophoto
+ODM_WORKDIR ?= /datasets/project
+ODM_TMPDIR ?= /datasets/project/tmp
+ODM_EXTRA_ARGS ?=
+
+HEIGHTMAP_SOURCE ?= dsm
+HEIGHTMAP_PNG ?= heightmap.png
+HEIGHTMAP_JSON ?= terrain_meta.json
+WORLD_FILE ?= generated_world.sdf
+ROBOT_MODEL ?= simple_bot
+#ROBOT_Z ?= 1.0
+WORLD_XY_SCALE ?= 1.0
+WORLD_Z_SCALE ?= 1.0
+ADD_MESH ?= 1
+HEIGHTMAP_PRIMARY_FORMAT ?= 8
+
+CMD_VEL_TOPIC ?= /cmd_vel
+ODOM_TOPIC ?= /odom
+SCAN_TOPIC ?= /scan
+IMU_TOPIC ?= /imu
+TELEOP_TOPIC ?= /cmd_vel
+
+#TERRAIN_Z_OFFSET := -240
+#WORLD_Z_SCALE := 20
+#ROBOT_Z := 0.6
+
+ROBOT_X ?= 0.0
+ROBOT_Y ?= 0.0
+ROBOT_Z ?= 0.0
+
+#TERRAIN_Z_OFFSET :=
+ROBOT_X := 0.0
+ROBOT_Y := 0.0
+ROBOT_Z := 20.0
+HEIGHTMAP_MAX_SIDE := 1025
+
+WORLD_TEMPLATE ?= templates/world.sdf.in
+
+WORLD_Z_SCALE := 1.0
+TERRAIN_Z_OFFSET :=
+ROBOT_X := 0.0
+ROBOT_Y := 0.0
+ROBOT_Z :=
+
+WORLD_NAME ?= ortho_world
+ROBOT_NAME ?= robot1
+ROBOT_FILE ?= $(REPO_ROOT)/gazebo/models/simple_bot/model.sdf
+
+MESH_X_OFFSET := 0.0
+MESH_Y_OFFSET := 0.0
+MESH_Z_OFFSET :=
+MESH_Z_DELTA ?= 1.0
+Z_ORIGIN_MODE := center
+
+
+STAMP_DIR := $(DATASET_DIR)/.make
+TERRAIN_DIR := $(DATASET_DIR)/terrain
+WORLD_DIR := $(DATASET_DIR)/gazebo_world
+
+ODM_STAMP := $(STAMP_DIR)/odm.done
+HEIGHTMAP_INPUT := $(DATASET_DIR)/odm_dem/$(HEIGHTMAP_SOURCE).tif
+HEIGHTMAP_META := $(TERRAIN_DIR)/terrain_meta.json
+WORLD_SDF := $(WORLD_DIR)/$(WORLD_FILE)

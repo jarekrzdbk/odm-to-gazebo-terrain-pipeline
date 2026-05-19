@@ -1,0 +1,3 @@
+[console_scripts]
+semantic_segmentation_node = terrain_semantics.semantic_segmentation_node:main
+

@@ -1,0 +1,49 @@
+[0.043s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaro/projects/ortho_v9/ros2_ws/src/rover_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup
+[1.223s] -- The C compiler identification is GNU 11.4.0
+[1.223s] -- The CXX compiler identification is GNU 11.4.0
+[1.223s] -- Detecting C compiler ABI info
+[1.223s] -- Detecting C compiler ABI info - done
+[1.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.224s] -- Detecting C compile features
+[1.224s] -- Detecting C compile features - done
+[1.224s] -- Detecting CXX compiler ABI info
+[1.224s] -- Detecting CXX compiler ABI info - done
+[1.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.225s] -- Detecting CXX compile features - done
+[1.225s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.225s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.225s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.226s] -- Configuring done
+[1.226s] -- Generating done
+[1.226s] -- Build files have been written to: /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup
+[1.567s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jaro/projects/ortho_v9/ros2_ws/src/rover_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup
+[1.568s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup -- -j12 -l12
+[1.581s] gmake[1]: Entering directory '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup'
+[1.632s] gmake[1]: Leaving directory '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup'
+[1.639s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup -- -j12 -l12
+[1.661s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup
+[1.675s] -- Install configuration: ""
+[1.675s] -- Execute custom install script
+[1.676s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/launch/nav2_stack.launch.py
+[1.694s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/launch/sim_nav.launch.py
+[1.713s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/config/bridge.yaml
+[1.733s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/config/ekf.yaml
+[1.756s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/config/nav2_params.yaml
+[1.775s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/rviz/nav2_default.rviz
+[1.792s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/ament_index/resource_index/package_run_dependencies/rover_bringup
+[1.810s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/ament_index/resource_index/parent_prefix_path/rover_bringup
+[1.828s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.sh
+[1.847s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.dsv
+[1.864s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/environment/path.sh
+[1.882s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/environment/path.dsv
+[1.904s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.bash
+[1.918s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.sh
+[1.936s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.zsh
+[1.955s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/local_setup.dsv
+[1.974s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.dsv
+[1.992s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/ament_index/resource_index/packages/rover_bringup
+[2.015s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig.cmake
+[2.031s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig-version.cmake
+[2.051s] -- Symlinking: /home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.xml
+[2.073s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup

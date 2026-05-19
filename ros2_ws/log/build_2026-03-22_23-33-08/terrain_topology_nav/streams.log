@@ -1,0 +1,17 @@
+[2.823s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/build --no-deps symlink_data
+[3.375s] running develop
+[3.729s] running egg_info
+[3.729s] writing terrain_topology_nav.egg-info/PKG-INFO
+[3.729s] writing dependency_links to terrain_topology_nav.egg-info/dependency_links.txt
+[3.730s] writing entry points to terrain_topology_nav.egg-info/entry_points.txt
+[3.731s] writing requirements to terrain_topology_nav.egg-info/requires.txt
+[3.731s] writing top-level names to terrain_topology_nav.egg-info/top_level.txt
+[3.734s] reading manifest file 'terrain_topology_nav.egg-info/SOURCES.txt'
+[3.735s] writing manifest file 'terrain_topology_nav.egg-info/SOURCES.txt'
+[3.739s] running build_ext
+[3.740s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages/terrain-topology-nav.egg-link (link to .)
+[3.741s] Installing topology_monitor script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/bin
+[3.742s] 
+[3.742s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav
+[3.742s] running symlink_data
+[3.864s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/build --no-deps symlink_data

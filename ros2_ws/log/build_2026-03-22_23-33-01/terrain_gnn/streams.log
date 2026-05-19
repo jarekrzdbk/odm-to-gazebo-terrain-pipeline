@@ -1,0 +1,24 @@
+[2.211s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data
+[2.695s] running develop
+[3.006s] running egg_info
+[3.006s] creating terrain_gnn.egg-info
+[3.006s] writing terrain_gnn.egg-info/PKG-INFO
+[3.007s] writing dependency_links to terrain_gnn.egg-info/dependency_links.txt
+[3.007s] writing entry points to terrain_gnn.egg-info/entry_points.txt
+[3.007s] writing requirements to terrain_gnn.egg-info/requires.txt
+[3.008s] writing top-level names to terrain_gnn.egg-info/top_level.txt
+[3.008s] writing manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+[3.012s] reading manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+[3.013s] writing manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+[3.016s] running build_ext
+[3.016s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages/terrain-gnn.egg-link (link to .)
+[3.018s] Installing train_gnn script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/bin
+[3.018s] 
+[3.018s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn
+[3.019s] running symlink_data
+[3.019s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index
+[3.019s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index
+[3.019s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index/packages
+[3.020s] symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/resource/terrain_gnn -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index/packages
+[3.020s] symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/package.xml -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn
+[3.113s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data

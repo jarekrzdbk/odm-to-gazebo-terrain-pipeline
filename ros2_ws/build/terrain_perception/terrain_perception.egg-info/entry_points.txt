@@ -1,0 +1,3 @@
+[console_scripts]
+object_detector_tracker = terrain_perception.object_detector_tracker:main
+

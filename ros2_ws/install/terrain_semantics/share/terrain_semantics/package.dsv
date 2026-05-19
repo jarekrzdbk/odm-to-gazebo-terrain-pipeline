@@ -1,0 +1,15 @@
+source;share/terrain_semantics/hook/path.ps1
+source;share/terrain_semantics/hook/path.dsv
+source;share/terrain_semantics/hook/path.sh
+source;share/terrain_semantics/hook/pythonpath.ps1
+source;share/terrain_semantics/hook/pythonpath.dsv
+source;share/terrain_semantics/hook/pythonpath.sh
+source;share/terrain_semantics/hook/pythonscriptspath.ps1
+source;share/terrain_semantics/hook/pythonscriptspath.dsv
+source;share/terrain_semantics/hook/pythonscriptspath.sh
+source;share/terrain_semantics/hook/ament_prefix_path.ps1
+source;share/terrain_semantics/hook/ament_prefix_path.dsv
+source;share/terrain_semantics/hook/ament_prefix_path.sh
+source;../../build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.ps1
+source;../../build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.dsv
+source;../../build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.sh

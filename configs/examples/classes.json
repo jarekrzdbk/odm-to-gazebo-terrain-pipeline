@@ -1,0 +1,9 @@
+{
+  "road": 1,
+  "grass": 2,
+  "building": 3,
+  "water": 4,
+  "rubble": 5,
+  "vegetation": 6,
+  "vehicle": 7
+}

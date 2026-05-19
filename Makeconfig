@@ -1,4 +1,4 @@
-DATASET_DIR ?= /media/jaro/EXTSSD/test/odm_data_aukerman
+DATASET_DIR ?= /media/jaro/EXTSSD/test5/odm_data_aukerman
 PROJECT_NAME ?= project
 REPO_ROOT ?= $(CURDIR)
 
@@ -80,3 +80,31 @@ ODM_STAMP := $(STAMP_DIR)/odm.done
 HEIGHTMAP_INPUT := $(DATASET_DIR)/odm_dem/$(HEIGHTMAP_SOURCE).tif
 HEIGHTMAP_META := $(TERRAIN_DIR)/terrain_meta.json
 WORLD_SDF := $(WORLD_DIR)/$(WORLD_FILE)
+ROS2_WS := $(REPO_ROOT)/ros2_ws
+NAV2_SOURCE := dtm
+
+CLASSES_JSON := $(REPO_ROOT)/configs/examples/classes.json
+
+OBS_X_M := 0.0
+OBS_Y_M := 0.0
+OBS_HEIGHT_M := 2.0
+TARGET_HEIGHT_M := 0.5
+MAX_VIS_RANGE_M := 300.0
+
+ORTHO_A := $(DATASET_DIR)/odm_orthophoto/odm_orthophoto.tif
+
+ORTHO_IMAGE ?= $(DATASET_DIR)/odm_orthophoto/odm_orthophoto.tif
+
+SEMANTIC_OVERLAY := $(TERRAIN_DIR)/semantic_overlay.png
+
+ORTHO_IMAGE ?= $(ORTHO_A)
+
+SEMANTIC_MODEL_ID ?= optimum/segformer-b0-finetuned-ade-512-512
+SEMANTIC_SCHEMA_JSON ?= $(REPO_ROOT)/configs/semantics/semantic_target_schema.json
+
+SEMANTIC_CLASS_MAP ?= $(TERRAIN_DIR)/semantic_class_ids.png
+SEMANTIC_CLASS_OVERLAY := $(TERRAIN_DIR)/semantic_class_overlay.png
+SEMANTIC_NAV_OVERLAY := $(TERRAIN_DIR)/semantic_overlay.png
+SEMANTIC_METADATA := $(TERRAIN_DIR)/semantic_class_map.json
+SEMANTIC_BLEND_PNG := $(TERRAIN_DIR)/semantic_blend.png
+SEMANTIC_ALPHA ?= 0.35

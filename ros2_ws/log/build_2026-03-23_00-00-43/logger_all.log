@@ -1,0 +1,386 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77379fe59f30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77379fe58ee0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77379fe58ee0>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.288s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaro/projects/ortho_v9/ros2_ws'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_bringup) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_bringup' with type 'ros.ament_cmake' and name 'rover_bringup'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_gnn) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/terrain_gnn' with type 'ros.ament_python' and name 'terrain_gnn'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_perception) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/terrain_perception' with type 'ros.ament_python' and name 'terrain_perception'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_semantics) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/terrain_semantics' with type 'ros.ament_python' and name 'terrain_semantics'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/terrain_topology_nav) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/terrain_topology_nav' with type 'ros.ament_python' and name 'terrain_topology_nav'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'rover_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'rover_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup', 'merge_install': False, 'path': '/home/jaro/projects/ortho_v9/ros2_ws/src/rover_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'terrain_gnn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_gnn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn', 'merge_install': False, 'path': '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_gnn', 'symlink_install': True, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception', 'merge_install': False, 'path': '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_perception', 'symlink_install': True, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'terrain_semantics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_semantics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics', 'merge_install': False, 'path': '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_semantics', 'symlink_install': True, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'terrain_topology_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_topology_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav', 'merge_install': False, 'path': '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_topology_nav', 'symlink_install': True, 'test_result_base': None}
+[0.391s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaro/projects/ortho_v9/ros2_ws/src/rover_bringup' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaro/projects/ortho_v9/ros2_ws/src/rover_bringup'
+[0.395s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.399s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_gnn' with build type 'ament_python'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_gnn', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/ament_prefix_path.ps1'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/ament_prefix_path.sh'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_perception' with build type 'ament_python'
+[0.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_perception', 'ament_prefix_path')
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/ament_prefix_path.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/ament_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/ament_prefix_path.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_semantics' with build type 'ament_python'
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_semantics', 'ament_prefix_path')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/ament_prefix_path.ps1'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/ament_prefix_path.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/ament_prefix_path.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.417s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_topology_nav' with build type 'ament_python'
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_topology_nav', 'ament_prefix_path')
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/ament_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/ament_prefix_path.dsv'
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/ament_prefix_path.sh'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup -- -j12 -l12
+[0.706s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_gnn'
+[0.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.976s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_perception'
+[0.976s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.245s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_semantics'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.504s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaro/projects/ortho_v9/ros2_ws/src/terrain_topology_nav'
+[1.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup -- -j12 -l12
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup
+[1.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_bringup)
+[1.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup
+[1.556s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup' for CMake module files
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'cmake_prefix_path')
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.ps1'
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.dsv'
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.sh'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/bin'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/lib/pkgconfig/rover_bringup.pc'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/lib/python3.10/site-packages'
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/bin'
+[1.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.sh'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.bash'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.zsh'
+[1.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/colcon-core/packages/rover_bringup)
+[1.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_bringup)
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup' for CMake module files
+[1.568s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup' for CMake config files
+[1.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_bringup', 'cmake_prefix_path')
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.dsv'
+[1.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/hook/cmake_prefix_path.sh'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/lib/pkgconfig/rover_bringup.pc'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/lib/python3.10/site-packages'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/bin'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.sh'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.bash'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/rover_bringup/package.zsh'
+[1.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/rover_bringup/share/colcon-core/packages/rover_bringup)
+[2.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/build --no-deps symlink_data
+[2.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data
+[2.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/build --no-deps symlink_data
+[2.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_perception', 'pythonpath_develop')
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/share/terrain_perception/hook/pythonpath_develop.ps1'
+[2.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data
+[2.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/share/terrain_perception/hook/pythonpath_develop.dsv'
+[2.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/share/terrain_perception/hook/pythonpath_develop.sh'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception' for CMake module files
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception' for CMake config files
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib'
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/bin'
+[2.666s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_perception', 'path')
+[2.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/path.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/path.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/path.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/pkgconfig/terrain_perception.pc'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages'
+[2.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_perception', 'pythonpath')
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonpath.ps1'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonpath.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonpath.sh'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/bin'
+[2.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_perception', 'pythonscriptspath')
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonscriptspath.ps1'
+[2.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonscriptspath.dsv'
+[2.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/hook/pythonscriptspath.sh'
+[2.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_perception)
+[2.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/package.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/package.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/package.sh'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/package.bash'
+[2.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/package.zsh'
+[2.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/colcon-core/packages/terrain_perception)
+[2.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_topology_nav', 'pythonpath_develop')
+[2.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath_develop.ps1'
+[2.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/build --no-deps symlink_data
+[2.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath_develop.dsv'
+[2.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath_develop.sh'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav' for CMake module files
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav' for CMake config files
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/bin'
+[2.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_topology_nav', 'path')
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/path.ps1'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/path.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/path.sh'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/pkgconfig/terrain_topology_nav.pc'
+[2.697s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/lib/python3.10/site-packages'
+[2.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_topology_nav', 'pythonpath')
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonpath.sh'
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/bin'
+[2.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_topology_nav', 'pythonscriptspath')
+[2.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonscriptspath.ps1'
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonscriptspath.dsv'
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/hook/pythonscriptspath.sh'
+[2.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_topology_nav)
+[2.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/package.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/package.dsv'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/package.sh'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/package.bash'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/terrain_topology_nav/package.zsh'
+[2.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_topology_nav/share/colcon-core/packages/terrain_topology_nav)
+[2.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_semantics', 'pythonpath_develop')
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.ps1'
+[2.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/build --no-deps symlink_data
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.dsv'
+[2.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/share/terrain_semantics/hook/pythonpath_develop.sh'
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics' for CMake module files
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics' for CMake config files
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/bin'
+[2.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_semantics', 'path')
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/path.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/path.dsv'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/path.sh'
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/pkgconfig/terrain_semantics.pc'
+[2.714s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages'
+[2.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_semantics', 'pythonpath')
+[2.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonpath.ps1'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonpath.dsv'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonpath.sh'
+[2.716s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/bin'
+[2.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_semantics', 'pythonscriptspath')
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonscriptspath.ps1'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonscriptspath.dsv'
+[2.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/hook/pythonscriptspath.sh'
+[2.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_semantics)
+[2.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/package.ps1'
+[2.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/package.dsv'
+[2.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/package.sh'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/package.bash'
+[2.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/package.zsh'
+[2.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/colcon-core/packages/terrain_semantics)
+[2.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_gnn', 'pythonpath_develop')
+[2.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/share/terrain_gnn/hook/pythonpath_develop.ps1'
+[2.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data
+[2.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/share/terrain_gnn/hook/pythonpath_develop.dsv'
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/share/terrain_gnn/hook/pythonpath_develop.sh'
+[2.723s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn' for CMake module files
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn' for CMake config files
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/bin'
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_gnn', 'path')
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/path.ps1'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/path.dsv'
+[2.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/path.sh'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/pkgconfig/terrain_gnn.pc'
+[2.726s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages'
+[2.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_gnn', 'pythonpath')
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonpath.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonpath.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonpath.sh'
+[2.728s] Level 1:colcon.colcon_core.environment:checking '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/bin'
+[2.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_gnn', 'pythonscriptspath')
+[2.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonscriptspath.ps1'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonscriptspath.dsv'
+[2.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/hook/pythonscriptspath.sh'
+[2.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_gnn)
+[2.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/package.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/package.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/package.sh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/package.bash'
+[2.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn/package.zsh'
+[2.732s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/colcon-core/packages/terrain_gnn)
+[2.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.733s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.733s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.741s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.741s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.758s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaro/projects/ortho_v9/ros2_ws/install/local_setup.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaro/projects/ortho_v9/ros2_ws/install/_local_setup_util_ps1.py'
+[2.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaro/projects/ortho_v9/ros2_ws/install/setup.ps1'
+[2.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaro/projects/ortho_v9/ros2_ws/install/local_setup.sh'
+[2.764s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaro/projects/ortho_v9/ros2_ws/install/_local_setup_util_sh.py'
+[2.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaro/projects/ortho_v9/ros2_ws/install/setup.sh'
+[2.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaro/projects/ortho_v9/ros2_ws/install/local_setup.bash'
+[2.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaro/projects/ortho_v9/ros2_ws/install/setup.bash'
+[2.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaro/projects/ortho_v9/ros2_ws/install/local_setup.zsh'
+[2.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaro/projects/ortho_v9/ros2_ws/install/setup.zsh'

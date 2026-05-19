@@ -1,0 +1,17 @@
+[1.703s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data
+[2.083s] running develop
+[2.334s] running egg_info
+[2.335s] writing terrain_perception.egg-info/PKG-INFO
+[2.335s] writing dependency_links to terrain_perception.egg-info/dependency_links.txt
+[2.335s] writing entry points to terrain_perception.egg-info/entry_points.txt
+[2.336s] writing requirements to terrain_perception.egg-info/requires.txt
+[2.336s] writing top-level names to terrain_perception.egg-info/top_level.txt
+[2.338s] reading manifest file 'terrain_perception.egg-info/SOURCES.txt'
+[2.339s] writing manifest file 'terrain_perception.egg-info/SOURCES.txt'
+[2.341s] running build_ext
+[2.341s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages/terrain-perception.egg-link (link to .)
+[2.343s] Installing object_detector_tracker script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/bin
+[2.343s] 
+[2.343s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception
+[2.343s] running symlink_data
+[2.412s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data

@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sdf version="1.8">
-  <world name="ortho_world">
+  <world name="{world_name}">
     <gravity>0 0 -9.8</gravity>
 
     <physics name="1ms" type="ignored">
@@ -35,8 +35,10 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
-    {marker_block}
+{marker_block}
 
-    {mesh_block}
+{mesh_block}
+
+{semantic_plane_block}
   </world>
 </sdf>

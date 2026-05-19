@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating terrain_semantics.egg-info
+writing terrain_semantics.egg-info/PKG-INFO
+writing dependency_links to terrain_semantics.egg-info/dependency_links.txt
+writing entry points to terrain_semantics.egg-info/entry_points.txt
+writing requirements to terrain_semantics.egg-info/requires.txt
+writing top-level names to terrain_semantics.egg-info/top_level.txt
+writing manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+reading manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+writing manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages/terrain-semantics.egg-link (link to .)
+Installing semantic_segmentation_node script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/bin
+
+Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics
+running symlink_data
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/ament_index
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/ament_index/resource_index
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/ament_index/resource_index/packages
+symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/resource/terrain_semantics -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/ament_index/resource_index/packages
+symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/package.xml -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/launch
+symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/launch/semantic_segmentation.launch.py -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/share/terrain_semantics/launch

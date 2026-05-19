@@ -1,0 +1,17 @@
+[1.699s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data
+[2.078s] running develop
+[2.330s] running egg_info
+[2.331s] writing terrain_gnn.egg-info/PKG-INFO
+[2.331s] writing dependency_links to terrain_gnn.egg-info/dependency_links.txt
+[2.331s] writing entry points to terrain_gnn.egg-info/entry_points.txt
+[2.331s] writing requirements to terrain_gnn.egg-info/requires.txt
+[2.332s] writing top-level names to terrain_gnn.egg-info/top_level.txt
+[2.335s] reading manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+[2.336s] writing manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+[2.338s] running build_ext
+[2.338s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages/terrain-gnn.egg-link (link to .)
+[2.340s] Installing train_gnn script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/bin
+[2.340s] 
+[2.340s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn
+[2.341s] running symlink_data
+[2.400s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/build --no-deps symlink_data

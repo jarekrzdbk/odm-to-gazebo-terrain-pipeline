@@ -1,0 +1,21 @@
+{
+  "target_ids": {
+    "background": 0,
+    "road": 1,
+    "grass": 2,
+    "building": 3,
+    "water": 4,
+    "rubble": 5,
+    "vegetation": 6,
+    "vehicle": 7
+  },
+  "matchers": {
+    "road": ["road", "path", "sidewalk", "runway"],
+    "grass": ["grass", "lawn"],
+    "building": ["building", "house", "skyscraper", "wall", "roof"],
+    "water": ["water", "river", "lake", "sea", "pool"],
+    "rubble": ["dirt", "earth", "sand", "rock", "stone", "gravel"],
+    "vegetation": ["tree", "plant", "field", "forest", "bush"],
+    "vehicle": ["car", "truck", "bus", "van", "boat", "motorbike", "bicycle", "airplane"]
+  }
+}

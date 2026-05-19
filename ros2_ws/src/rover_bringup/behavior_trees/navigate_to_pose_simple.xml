@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <PipelineSequence name="NavigateToPoseSimple">
+      <ComputePathToPose
+        goal="{goal}"
+        path="{path}"
+        planner_id="GridBased" />
+      <FollowPath
+        path="{path}"
+        controller_id="FollowPath" />
+    </PipelineSequence>
+  </BehaviorTree>
+</root>

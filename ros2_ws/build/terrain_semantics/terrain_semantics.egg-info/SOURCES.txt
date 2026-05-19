@@ -1,0 +1,13 @@
+package.xml
+setup.py
+launch/semantic_segmentation.launch.py
+resource/terrain_semantics
+terrain_semantics/__init__.py
+terrain_semantics/semantic_segmentation_node.py
+terrain_semantics.egg-info/PKG-INFO
+terrain_semantics.egg-info/SOURCES.txt
+terrain_semantics.egg-info/dependency_links.txt
+terrain_semantics.egg-info/entry_points.txt
+terrain_semantics.egg-info/requires.txt
+terrain_semantics.egg-info/top_level.txt
+terrain_semantics.egg-info/zip-safe

@@ -1,0 +1,1 @@
+/home/jaro/projects/ortho_v9/ros2_ws/build/rover_bringup/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing terrain_semantics.egg-info/PKG-INFO
+writing dependency_links to terrain_semantics.egg-info/dependency_links.txt
+writing entry points to terrain_semantics.egg-info/entry_points.txt
+writing requirements to terrain_semantics.egg-info/requires.txt
+writing top-level names to terrain_semantics.egg-info/top_level.txt
+reading manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+writing manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages/terrain-semantics.egg-link (link to .)
+Installing semantic_segmentation_node script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/bin
+
+Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics
+running symlink_data

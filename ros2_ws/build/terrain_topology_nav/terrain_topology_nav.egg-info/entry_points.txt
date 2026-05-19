@@ -1,0 +1,3 @@
+[console_scripts]
+topology_monitor = terrain_topology_nav.topology_monitor:main
+

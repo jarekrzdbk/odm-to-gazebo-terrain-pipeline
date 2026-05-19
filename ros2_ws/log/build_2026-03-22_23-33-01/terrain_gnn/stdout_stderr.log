@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating terrain_gnn.egg-info
+writing terrain_gnn.egg-info/PKG-INFO
+writing dependency_links to terrain_gnn.egg-info/dependency_links.txt
+writing entry points to terrain_gnn.egg-info/entry_points.txt
+writing requirements to terrain_gnn.egg-info/requires.txt
+writing top-level names to terrain_gnn.egg-info/top_level.txt
+writing manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+reading manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+writing manifest file 'terrain_gnn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/lib/python3.10/site-packages/terrain-gnn.egg-link (link to .)
+Installing train_gnn script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/bin
+
+Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn
+running symlink_data
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index
+creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index/packages
+symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/resource/terrain_gnn -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/ament_index/resource_index/packages
+symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_gnn/package.xml -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_gnn/share/terrain_gnn

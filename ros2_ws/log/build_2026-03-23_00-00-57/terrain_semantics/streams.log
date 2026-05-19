@@ -1,0 +1,17 @@
+[1.723s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/build --no-deps symlink_data
+[2.113s] running develop
+[2.370s] running egg_info
+[2.371s] writing terrain_semantics.egg-info/PKG-INFO
+[2.371s] writing dependency_links to terrain_semantics.egg-info/dependency_links.txt
+[2.371s] writing entry points to terrain_semantics.egg-info/entry_points.txt
+[2.372s] writing requirements to terrain_semantics.egg-info/requires.txt
+[2.372s] writing top-level names to terrain_semantics.egg-info/top_level.txt
+[2.376s] reading manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+[2.376s] writing manifest file 'terrain_semantics.egg-info/SOURCES.txt'
+[2.379s] running build_ext
+[2.379s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages/terrain-semantics.egg-link (link to .)
+[2.381s] Installing semantic_segmentation_node script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/bin
+[2.381s] 
+[2.381s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics
+[2.381s] running symlink_data
+[2.456s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_semantics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_semantics/build --no-deps symlink_data

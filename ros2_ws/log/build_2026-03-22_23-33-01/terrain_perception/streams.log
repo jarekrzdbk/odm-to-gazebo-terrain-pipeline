@@ -1,0 +1,26 @@
+[2.181s] Invoking command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data
+[2.666s] running develop
+[2.965s] running egg_info
+[2.965s] creating terrain_perception.egg-info
+[2.965s] writing terrain_perception.egg-info/PKG-INFO
+[2.966s] writing dependency_links to terrain_perception.egg-info/dependency_links.txt
+[2.966s] writing entry points to terrain_perception.egg-info/entry_points.txt
+[2.966s] writing requirements to terrain_perception.egg-info/requires.txt
+[2.967s] writing top-level names to terrain_perception.egg-info/top_level.txt
+[2.967s] writing manifest file 'terrain_perception.egg-info/SOURCES.txt'
+[2.970s] reading manifest file 'terrain_perception.egg-info/SOURCES.txt'
+[2.970s] writing manifest file 'terrain_perception.egg-info/SOURCES.txt'
+[2.973s] running build_ext
+[2.974s] Creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages/terrain-perception.egg-link (link to .)
+[2.975s] Installing object_detector_tracker script to /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/bin
+[2.976s] 
+[2.976s] Installed /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception
+[2.976s] running symlink_data
+[2.977s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/ament_index
+[2.977s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/ament_index/resource_index
+[2.977s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/ament_index/resource_index/packages
+[2.977s] symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/resource/terrain_perception -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/ament_index/resource_index/packages
+[2.978s] symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/package.xml -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception
+[2.979s] creating /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/launch
+[2.979s] symbolically linking /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/launch/object_detector_tracker.launch.py -> /home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/share/terrain_perception/launch
+[3.046s] Invoked command in '/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception' returned '0': PYTHONPATH=/home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaro/projects/ortho_v9/ros2_ws/install/terrain_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaro/projects/ortho_v9/ros2_ws/build/terrain_perception/build --no-deps symlink_data

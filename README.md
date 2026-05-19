@@ -2,6 +2,8 @@
 
 A pipeline for converting drone image datasets into Gazebo simulation worlds and optional ROS 2 / Nav2 navigation assets.
 
+![Gazebo terrain screenshot](docs/images/gazebo-screenshot.png)
+
 ## Overview
 
 This project uses OpenDroneMap outputs such as orthophotos, DTM/DSM elevation models, point clouds, and textured meshes to build simulated terrain for robot experiments.
